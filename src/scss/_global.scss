@@ -1,0 +1,27 @@
+@use 'variables' as *;
+
+body {
+  margin: 0;
+  background-color: $background;
+  color: $text;
+  font-family: $body-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font;
+  color: $text;
+}
+
+a {
+  color: $primary;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}

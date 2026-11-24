@@ -1,0 +1,6 @@
+@use 'variables' as *;
+
+.navbar {
+  background-color: $surface;
+  border-bottom: 1px solid $border;
+}
