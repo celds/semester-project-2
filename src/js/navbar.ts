@@ -2,7 +2,7 @@ export function createNavbar(): string {
   return `
     <nav class="navbar">
     <div class="container">
-    <a class="navbar-brand" href="#">Student Auction</a>
+    <a class="navbar-brand" href="#">Auction</a>
     
     <ul class="navbar-nav ms-auto flex-row gap-4">
     <li class=nav-item">
