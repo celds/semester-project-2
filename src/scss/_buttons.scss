@@ -1,0 +1,14 @@
+
+@use 'variables' as *;
+
+.btn-primary {
+    background-color: $primary;
+    border-color: $primary;
+    color: $surface;
+
+    &:hover {
+        background-color: $secondary;
+        border-color: $secondary;
+        color: $text;
+    }
+}
