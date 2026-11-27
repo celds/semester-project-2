@@ -3,6 +3,7 @@ import "bootstrap";
 import "./scss/main.scss";
 import heroImage from "./assets/hero1.png";
 import { createNavbar } from "./js/navbar";
+import { createListingCard} from "./js/listing-card";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
 ${createNavbar()}
@@ -39,3 +40,9 @@ ${createNavbar()}
 </section>
  </main>
  `;
+
+ const listingContainer = document.querySelector<HTMLDivElement>("#listing-container");
+ 
+ if (listingContainer) {
+    listingContainer.innerHTML = createListingCard();
+ }
