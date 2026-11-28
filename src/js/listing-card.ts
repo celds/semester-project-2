@@ -8,7 +8,7 @@ export function createListingCard(): string {
     
     <div class="listing-card-content">
     <h3>Item title</h3>
-    <p>Current bid: 100 credits</p>
+    <p>Current bid: 100 billion</p>
     <a href="#" class="btn btn-primary">View listing</a>
     </div>
     </div>
